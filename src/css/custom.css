@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+.secondary{
+    background-color: #395ad6;
+}
+
+.primary{
+  background-color: #e6f5fc;
+  color: black;
+}
+
+.aux-color{
+    background-color: #2774de;
+}
+
+.aux-color-gray{
+    color: gray;
+}
+
+.center{
+  text-align: center;
+}
+
+.center-item{
+    align-items: center;
+    margin-top: 9%;
+}
+.left{
+  padding-right: 1px;
+}
+
+.item-left{
+  align-self: flex-end;
+}
+
+.center-element{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.spacie-row-xsm{ margin-top: 0.5%;}
+.spacie-row-sm{ margin-top: 2%;}
+.spacie-row-md{ margin-top: 5%;}
+.spacie-row-bg{ margin-top: 10%;}
+.spacie-row-xg{  margin-top: 20%;}
+
+.title{
+  font-family: 'Roboto', sans-serif;
+  font-size: 80px;
+  color: #051286c4;
+}
+
+.title-1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  color: #051286c4;
+}
+
+.parrafo{
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: #4a4b4bde;
+}
+.fs1-normal{
+  font-size: xx-large;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+}
+h2{
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+.fs1-bold{
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fs1-light{
+  font-size: xx-large;
+  font-weight: lighter;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fs2-normal{
+  font-size: x-large;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fs2-bold{
+  font-size: x-large;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fs2-light{
+  font-size: x-large;
+  font-weight: lighter;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fs3-normal{
+  font-size: large;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fs3-bold{
+  font-size: large;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fs3-light{
+  font-size: large;
+  font-weight: lighter;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fs4-normal{
+  font-size: medium;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fs4-bold{
+  font-size: medium;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fs45-light{
+  font-size: small;
+  font-weight: lighter;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fs5-normal{
+  font-size: small;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fs5-bold{
+  font-size: small;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fs4-light{
+  font-size: medium;
+  font-weight: lighter;
+  font-family: 'Roboto', sans-serif;
+}
+
+.subtitulo{
+  font-size: 30px ;
+  font-family: 'Roboto', sans-serif;
+}
+.row {
+  display: flex;
+  width: 100%;
+}
+
+
+.row::after {
+    clear: both;
+     content: "";
+}
+
+.col{
+  margin: 3px;
+}
+.col-1 {width: 8.33%};
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 30px 100px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: #395ad6;
+  color: white;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 100px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+
+  div{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+
+  }
+
+  th{
+    width: 300px;
+    text-align: justify;
+    padding-right: 1%;
+    border-style: dotted;
+  }
+  .button{
+    border: none;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 1px 1.5px 10px black;
+  }
+
+  .button-primary{
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    height: 45px;
+  }
+
+  .footer {
+    position: fixed;
+    padding: 0px 0px 0px 0px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/ 
+    height: 40px;
+}
+
+.img-1{
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+}
+
+.stack-top{
+  position: absolute;
+  z-index: 2;
+  height: 250px;
+  width: 80%;
+  top: 850px;
+  left: 100px;
+  opacity: .95;
+}
+
+.opacity-1{
+  opacity: .50;
+  filter: grayscale(100%);
+}
+
+.card {
+  box-shadow: 0 10px 1px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  margin-right: 5%;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #faf9fd;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 #e2ecfa;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.card-container{
+  margin-left: 13%;
+  margin-right: 10%;
+}
+
+/* Demo */
+
+@media only screen and (min-width: 620px){
+
+
+.accordion > input[name="collapse"]:checked ~ .content {
+  height: 220px;
+}
+
+}
+
+
+
+.accordion {
+  margin-bottom: 1em;
+}
+
+.accordion > input[name="collapse"]:checked ~ .content {
+  border-top: 0;
+  transition: 0.3s;
+}
+
+.accordion .handle {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  
+}
+
+.accordion label {
+  color: black;
+  cursor: pointer;
+  font-weight: normal;
+  padding: 10px;
+  user-select: none;
+  
+}
+
+.accordion label:hover,
+.accordion label:focus {
+  background: #395ad6;
+  color: #e2ecfa;
+}
+
+.accordion .handle label:before {
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+  margin-right: 10px;
+  font-size: large;
+  line-height: 1.556em;
+  vertical-align: middle;
+  transition: 0.4s;
+  
+}
+
+.accordion > input[name="collapse"]:checked ~ .handle label:before {
+    transform: rotate(180deg);
+    transform-origin: center;
+    transition: 0.4s;
+}
+
+.accordion > input[name="collapse"] {
+  display: none;
+  
+  /*position: absolute;
+  left: -100vw;*/
+}
+
+.accordion label,
+.accordion .content{
+ max-width: 100%;
+  margin: 0 auto;
+ }
+
+
+.accordion .content {
+  background: #fff;
+  overflow: hidden;
+  height: 0;
+  transition: 0.5s;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.accordion > input[name="collapse"]:checked ~ .content {
+  height: 380px;
+  transition: height 0.5s;
+}
+
+.accordion label {
+  display: block;
+ 
+}
+.container-1{
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.border{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  height: 50px;
+  width: 50px;
+  background-color: rgba(217, 255, 0, 0.774);
+  opacity: 0.3;
+}
